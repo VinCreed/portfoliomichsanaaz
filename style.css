@@ -1,0 +1,126 @@
+:root {
+    --hue-color: 216;
+
+    --first-color: hsl(var(--hue-color), 100%, 55%);
+    --first-color-second: hsl(var(--hue-color),98%, 53%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 69%, 45%);
+    --text-color-lighter: hsl(var(--hue-color), 69%, 65%);
+    --input-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+
+    --body-font: sans-serif;
+
+    --h1-font-size: 1.5rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+#contacts {
+    background-color: #ffff;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #3ce792;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 12pt;
+    font-style: sans-serif;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#gallery .row > * {
+    padding: 0;
+}
+
+/* .footer {
+    padding-top: 2rem;
+} */
+
+.footer__container {
+    row-gap: 3.5rem;
+}
+
+.footer__bg {
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__tittle{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__links:hoover{
+    color: var(--first-color-lighter);
+}
+
+.footer_socials {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer_socials:hoover{
+    color: var(--first-color-lighter);
+}
+
+.footer__copy {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: var(--text-color-lighter);
+    margin-top: var(--mb-3);
+}
+
+.footer__tittle,
+.footer__subtitle,
+.footer__links,
+.footer_socials{
+    color: #fff;
+}
